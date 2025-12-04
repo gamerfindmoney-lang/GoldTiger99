@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GoldTiger99 – Premium Edition</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Prompt:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <img
+            src="https://www.dropbox.com/scl/fi/5jfdrr4rqhauwxwz9rmp3/IMG_0888.png?rlkey=whqtjm9r19cjxzrr8diwks66j&st=bpae1pjx&dl=1"
+            alt="GoldTiger Logo"
+            class="logo"
+          />
+          <div>
+            <h1 class="brand-title">GoldTiger99</h1>
+            <p class="brand-sub">Premium Edition</p>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <div id="userBadge" class="user-badge">ยังไม่ได้ล็อกอิน</div>
+          <button
+            id="logoutBtn"
+            class="btn btn-ghost btn-logout hidden"
+            onclick="logout()"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAV -->
+    <nav class="site-nav">
+      <ul>
+        <li><button class="nav-btn active" onclick="showSection('home', this)">หน้าหลัก</button></li>
+        <li><button class="nav-btn" onclick="showSection('visit', this)">เกี่ยวกับเรา</button></li>
+        <li><button class="nav-btn" onclick="showSection('product', this)">สินค้า</button></li>
+
+        <!-- ⭐ เพิ่มเมนูเครื่องดื่ม -->
+        <li><button class="nav-btn" onclick="showSection('drink', this)">เครื่องดื่ม</button></li>
+
+        <li><button class="nav-btn" onclick="showSection('order', this)">สั่งซื้อ</button></li>
+        <li><button class="nav-btn" onclick="showSection('contact', this)">ติดต่อเรา</button></li>
+        <li><button class="nav-btn" onclick="showSection('register', this)">ลงทะเบียน</button></li>
+        <li><button class="nav-btn" onclick="showSection('signin', this)">เข้าสู่ระบบ</button></li>
+      </ul>
+    </nav>
+
+    <main class="main">
+
+      <!-- HOME -->
+      <section id="home" class="page-section active">
+        <div class="hero hero-centered">
+
+          <!-- รูปบนสุด -->
+          <div class="hero-product-top">
+            <img
+              src="https://www.dropbox.com/scl/fi/5y3qjikbxa0f7y06f6nm4/IMG_0885.jpeg?rlkey=sglemjjj56jdach3s3bx12foh&st=cw07ccpq&dl=1"
+              alt="Gold Tiger Bottle"
+              class="hero-product-img-top"
+            />
+          </div>
+
+          <!-- ข้อความ -->
+          <div class="hero-content" style="text-align: center; margin-top: 20px">
+            <h2 class="hero-title">GOLD TIGER 99 PREMIUM</h2>
+            <p class="hero-lead">ที่สุดของรสชาติ ความหรูหรา และเอกลักษณ์เฉพาะตัว</p>
+            <div class="hero-cta">
+              <button class="btn btn-gold" onclick="showSection('product')">ดูสินค้า</button>
+              <button class="btn btn-outline" onclick="showSection('order')">สั่งซื้อเลย</button>
+            </div>
+          </div>
+
+          <!-- ระยะเว้น -->
+          <div style="height: 60px"></div>
+
+          <!-- รูปที่สอง -->
+          <div class="hero-product-top">
+            <img
+              src="https://www.dropbox.com/scl/fi/9flszh1x7sbkc0kueqjcw/IMG_0891.jpeg?rlkey=8r1i7y40361i436649xtha28o&st=d1z2i9d7&dl=1"
+              alt="WHITE TIGER PREMIUM EDITION"
+              class="hero-product-img-top"
+            />
+          </div>
+
+          <!-- ข้อความที่สอง -->
+          <div class="hero-content" style="text-align: center; margin-top: 20px">
+            <h2 class="hero-title">WHITE TIGER PREMIUM EDITION</h2>
+            <p class="hero-lead">ดีไซน์หรูหรา พรีเมียม ลิมิเต็ดเอดิชั่น</p>
+            <div class="hero-cta">
+              <button class="btn btn-gold" onclick="showSection('product')">ดูสินค้า</button>
+              <button class="btn btn-outline" onclick="showSection('order')">สั่งซื้อเลย</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="visit" class="page-section">
+        <div class="container">
+          <h3 class="section-title">เกี่ยวกับ GoldTiger</h3>
+          <div class="glass">
+            <p>เหล้าสมุนไพร Goldtiger 99
+
+              รายละเอียด
+              การผสมผสานที่ละเอียดอ่อนของสมุนไพร 18 ชนิดที่คัดสรรมาอย่างดี โสม ชะเอมเทศ โกจิเบอร์รี่ และปรุงสูตรด้วยผู้เชี่ยวชาญด้านสมุนไพรมาได้นานถึงหนึ่งปี Goldtiger 99 เป็นเหล้าสมุนไพรเสิร์ฟเป็นช็อตเย็นได้ดีที่สุด
+              และสามารถทำได้หลายเมนู ไม่ว่าจะเป็น บอม คือกเทล
+              
+              ด้วยรสชาติที่เป็นเอกลักษณ์จาก สมุนไพร เกรดสูงสุด ที่แตกต่างกัน จากนั้นจึงผสมผสานเข้ากันอย่างลงตัวจากผู้เชี่ยวชาญด้านสมุนไพร เมื่อได้รับรสชาตินี้แล้วคุณจะได้รับพลังจากสมุนไพรที่แท้จริง พร้อมเริ่มต้นวันใหม่ที่สดใส
+              
+              น้ําที่เราใช้ผลิตได้จากแหล่งน้ำที่มาจากธรรมชาติซึ่งด้านน้ำเหล้าสมุนไพรของเราโดดเด่น
+              
+              ผู้ผลิตและคิดค้นสูตร
+              Dr. Keang</p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- PRODUCT (เริ่มตรงนี้) -->
+      <section id="product" class="page-section">
+        <h2 class="section-title">สินค้า</h2>
+
+        <div class="product-list">
+
+          <!-- สินค้า 1 -->
+          <div class="product-card">
+            <h3 class="product-name">GOLD TIGER 99 PREMIUM</h3>
+
+            <img
+              class="product-img"
+              src="https://www.dropbox.com/scl/fi/5y3qjikbxa0f7y06f6nm4/IMG_0885.jpeg?rlkey=sglemjjj56jdach3s3bx12foh&st=uomx7cqb&dl=1"
+              alt="GOLD TIGER 99 PREMIUM"
+            />
+
+            <p class="product-desc">
+              เหล้าพรีเมียมกลิ่นหอมเอกลักษณ์ รสนุ่ม หรูหรา เหมาะสำหรับทุกโอกาสพิเศษ
+            </p>
+
+            <div class="product-price">ราคา: 749.- บาท</div>
+
+            <div class="product-actions">
+              
+              <button class="btn btn-gold" onclick="showSection('order')">สั่งซื้อ</button>
+            </div>
+          </div>
+          <!-- สินค้า 2 -->
+          <div class="product-card">
+            <h3 class="product-name">WHITE TIGER PREMIUM EDITION</h3>
+
+            <img
+              class="product-img"
+              src="https://www.dropbox.com/scl/fi/9flszh1x7sbkc0kueqjcw/IMG_0891.jpeg?rlkey=8r1i7y40361i436649xtha28o&st=d1z2i9d7&dl=1"
+              alt="WHITE TIGER PREMIUM EDITION"
+            />
+
+            <p class="product-desc">
+              รุ่นพิเศษให้รสชาติหนักแน่น กลิ่นสโมคอ่อนๆ สไตล์ซิงเกิลมอลต์ระดับพรีเมียม
+            </p>
+
+            <div class="product-price">ราคา: 349.- บาท</div>
+
+            <div class="product-actions">
+            
+              <button class="btn btn-gold" onclick="showSection('order')">สั่งซื้อ</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+<!-------------------------------- DRINK MENU (แก้ไขเป็นวิดีโอ) -------------------------------->
+
+<section id="drink" class="page-section">
+  <div class="container">
+    <h3 class="section-title">เมนูเครื่องดื่ม</h3>
+
+    <div class="grid drink-grid">
+
+      <!-- Drink 1 ใช้วิดีโอจาก Dropbox -->
+      <article class="card drink-card">
+        <div class="card-video-box">
+          <video
+            class="card-media"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="https://dl.dropbox.com/scl/fi/rvatymxyyqztv71itblxr/CCoJzV-EW5lvDtHtN53TilF7yICYp2MKCJxJLUPbqIc.mp4?rlkey=h6if9qkfzlb0em14dy2vf5o7s&st=idelqzjc&dl=1" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="card-body">
+          <h4 class="card-title">Tiger Beer Bomb</h4>
+          <p class="muted">หวาน หอม สดชื่น</p>
+          <p><strong>ส่วนผสม:</strong><br>GoldTiger 30 ml, น้ำผึ้ง, มะนาว, โซดา</p>
+        </div>
+      </article>
+
+      <!-- Drink 2 (วิดีโอ) -->
+<article class="card drink-card">
+  <div class="card-video-box">
+    <video
+      class="card-media"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
+      <source src="https://dl.dropbox.com/scl/fi/0yfr29l5a6ylkw8d9etpl/TXsRvUIqvwTQVAEEPurMvlp2nnFor8kNJJNT7K2YPRU.mp4?rlkey=imp0covy48pcb9b0goauyr0zu&st=75lktf83&dl=1" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="card-body">
+    <h4 class="card-title">Tiger On The Rock</h4>
+    <p class="muted">เข้ม หอม ลึกลับ</p>
+    <p><strong>ส่วนผสม:</strong><br>GoldTiger Dark 45 ml, โคล่า, เลมอน</p>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- ORDER -->
+      <section id="order" class="page-section">
+        <div class="container">
+          <h3 class="section-title">สั่งซื้อ / ขอใบเสนอราคา</h3>
+          <div class="glass">
+            <label>เลือกสินค้า</label>
+            <select id="orderProduct">
+              <option value="Gold Tiger Limited">Gold Tiger 99 Limited – ฿749</option>
+              <option value="Gold Tiger Dark Edition">WHITE TIGER PREMIUM EDITION – ฿349</option>
+            </select>
+
+            <label>ชื่อผู้ติดต่อ</label>
+            <input id="orderName" />
+
+            <label>บริษัท</label>
+            <input id="orderCompany" />
+
+            <label>เบอร์โทร</label>
+            <input id="orderPhone" />
+
+            <label>จำนวน (ขวด)</label>
+            <input id="orderQty" type="number" min="1" />
+
+            <label>หมายเหตุ</label>
+            <textarea id="orderNote"></textarea>
+
+            <div class="form-actions">
+              <button class="btn btn-gold" onclick="submitOrder()">ส่งคำสั่งซื้อ</button>
+              <button class="btn btn-outline" onclick="resetOrder()">รีเซ็ต</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="page-section">
+        <div class="container">
+          <h3 class="section-title">ติดต่อเรา</h3>
+          <div class="glass">
+            <p><strong>บริษัท:</strong> GoldTiger99</p>
+            <p><strong>ผู้ติดต่อ:</strong> เอิร์ธ</p>
+            <p><strong>เบอร์:</strong> 081-104-5438</p>
+            <p><strong>Email:</strong> Spnearth@hotmail.com</p>
+            <p><strong>Line:</strong> Aeearth11</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- REGISTER -->
+      <section id="register" class="page-section">
+        <div class="container">
+          <h3 class="section-title">ลงทะเบียน</h3>
+          <div class="glass">
+            <input id="regUsername" placeholder="Username" />
+            <input id="regPassword" type="password" placeholder="Password" />
+            <input id="regPassword2" type="password" placeholder="Password (อีกครั้ง)" />
+            <input id="regCompany" placeholder="ชื่อบริษัท" />
+            <textarea id="regAddress" placeholder="ที่อยู่"></textarea>
+            <input id="regTax" placeholder="เลขที่นิติบุคคล" />
+            <input id="regPhone" placeholder="เบอร์ติดต่อ" />
+            <div class="form-actions">
+              <button class="btn btn-gold" onclick="registerUser()">ลงทะเบียน</button>
+              <button class="btn btn-outline" onclick="clearRegisterForm()">ล้างฟอร์ม</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SIGNIN -->
+      <section id="signin" class="page-section">
+        <div class="container">
+          <h3 class="section-title">เข้าสู่ระบบ</h3>
+          <div class="glass">
+            <input id="loginUsername" placeholder="Username" />
+            <input id="loginPassword" type="password" placeholder="Password" />
+            <div class="form-actions">
+              <button class="btn btn-gold" onclick="loginUser()">เข้าสู่ระบบ</button>
+              <button class="btn btn-outline" onclick="showSection('register')">สมัครสมาชิก</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> GoldTiger99 — All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
